@@ -172,6 +172,36 @@ def validate_contact_response(data: Dict[str, Any]) -> Dict[str, Any]:
         "issues": issues
     }
 
+def test_frontend_integration():
+    """Test if frontend can actually access the backend"""
+    print("6. Testing Frontend Integration")
+    
+    # Test with the exact URL the frontend uses
+    frontend_backend_url = "http://localhost:8001"  # From frontend/.env
+    
+    try:
+        # Test the same way frontend components do
+        response = requests.get(f"{frontend_backend_url}/api/profile", timeout=5)
+        if response.status_code == 200:
+            print("   ✅ Frontend can access backend API")
+            print(f"   📊 Response time: {response.elapsed.total_seconds():.3f}s")
+            
+            # Check CORS headers specifically
+            cors_origin = response.headers.get('access-control-allow-origin')
+            if cors_origin == '*':
+                print("   ✅ CORS allows all origins (frontend can access)")
+            else:
+                print(f"   ⚠️  CORS origin: {cors_origin}")
+            
+            return True
+        else:
+            print(f"   ❌ Frontend cannot access backend: HTTP {response.status_code}")
+            return False
+            
+    except Exception as e:
+        print(f"   ❌ Frontend integration test failed: {str(e)}")
+        return False
+
 def main():
     """Main testing function"""
     print("=" * 60)
