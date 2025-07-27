@@ -31,8 +31,8 @@ const Hero = () => {
       // Fallback data
       setProfileData({
         name: "Rachit Kapoor",
-        title: "Front-End Developer",
-        bio: "Proficient Front-End Developer with hands-on experience in full-stack development. Passionate about Generative AI and continuous learning.",
+        title: "Full-Stack Developer",
+        bio: "Proficient Full-Stack Developer with hands-on experience in front-end and back-end development. Passionate about Generative AI and continuous learning.",
         photo_url: "https://drive.google.com/uc?export=view&id=1435Jiu-4FbjKJ67-XVBj11Kt1_FXESP7",
         resume_url: "https://drive.google.com/file/d/1LNp08GZwL9EPKHrzIPsKVUcHe6CbHNcl/view",
         contact: {
