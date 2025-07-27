@@ -242,9 +242,9 @@ const Technologies = () => {
               
               <div>
                 <h4 className="text-3xl font-bold text-primary-600 dark:text-primary-400 mb-2">
-                  3+
+                  Fresh
                 </h4>
-                <p className="text-gray-600 dark:text-gray-300">Years Experience</p>
+                <p className="text-gray-600 dark:text-gray-300">Graduate Ready</p>
               </div>
             </div>
           </div>
