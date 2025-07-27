@@ -44,7 +44,7 @@ const Footer = () => {
               Rachit Kapoor
             </h3>
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Front-End Developer passionate about creating beautiful, functional web applications 
+              Full-Stack Developer passionate about creating beautiful, functional web applications 
               and exploring the exciting possibilities of Generative AI.
             </p>
             <div className="flex space-x-4">
