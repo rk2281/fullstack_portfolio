@@ -122,7 +122,7 @@ const Hero = () => {
                 {profileData?.name}
               </h1>
               <h2 className="text-2xl md:text-3xl font-semibold gradient-text mb-6">
-                {profileData?.title}
+                {titles[currentTitleIndex]}
               </h2>
               <p className="text-xl text-gray-600 dark:text-gray-300 mb-8 leading-relaxed max-w-2xl">
                 {profileData?.bio}
