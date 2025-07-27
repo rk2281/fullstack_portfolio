@@ -23,8 +23,8 @@ function App() {
       setDarkMode(prefersDark);
     }
     
-    // Simulate loading time
-    setTimeout(() => setLoading(false), 1000);
+    // Remove artificial loading delay for debugging
+    setLoading(false);
   }, []);
 
   useEffect(() => {
