@@ -336,6 +336,12 @@ def main():
         all_tests_passed = False
     print()
     
+    # Test 6: Frontend Integration
+    frontend_integration_success = test_frontend_integration()
+    if not frontend_integration_success:
+        all_tests_passed = False
+    print()
+    
     # Summary
     print("=" * 60)
     print("TEST SUMMARY")
