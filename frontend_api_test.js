@@ -1,5 +1,5 @@
 // Frontend API Test - Simulates how React components fetch data
-const fetch = require('node-fetch');
+const fetch = require('node-fetch').default;
 
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || 'http://localhost:8001';
 
