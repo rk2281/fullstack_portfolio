@@ -68,6 +68,7 @@ const Projects = () => {
   const getProjectIcon = (title) => {
     if (title.toLowerCase().includes('music')) return '🎵';
     if (title.toLowerCase().includes('food')) return '🍕';
+    if (title.toLowerCase().includes('dice') || title.toLowerCase().includes('die')) return '🎲';
     return '💻';
   };
 
