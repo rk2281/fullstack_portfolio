@@ -5,9 +5,19 @@ import { motion } from 'framer-motion';
 const Hero = () => {
   const [profileData, setProfileData] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
+  const [currentTitleIndex, setCurrentTitleIndex] = useState(0);
+
+  const titles = ["Full-Stack Developer", "AI/ML Enthusiast"];
 
   useEffect(() => {
     fetchProfileData();
+    
+    // Set up title cycling
+    const titleInterval = setInterval(() => {
+      setCurrentTitleIndex((prevIndex) => (prevIndex + 1) % titles.length);
+    }, 3000); // Change title every 3 seconds
+
+    return () => clearInterval(titleInterval);
   }, []);
 
   const fetchProfileData = async () => {
