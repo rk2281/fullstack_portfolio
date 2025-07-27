@@ -50,6 +50,15 @@ PROJECTS_DATA = [
         "github_url": "https://github.com/rk2281",
         "demo_url": None,
         "image_url": None
+    },
+    {
+        "id": "roll-a-die-game",
+        "title": "Roll A Die Game",
+        "description": "An interactive dice rolling game built with engaging user interface and game mechanics.",
+        "technologies": ["HTML", "CSS", "JavaScript", "Game Development"],
+        "github_url": "https://github.com/rk2281",
+        "demo_url": "https://rk2281.github.io/roll_a_die_game/",
+        "image_url": None
     }
 ]
 
@@ -64,7 +73,20 @@ TECHNOLOGIES_DATA = [
     {"name": "Python", "category": "Programming", "level": "Intermediate"},
     {"name": "GitHub", "category": "Version Control", "level": "Advanced"},
     {"name": "AWS Cloud Services", "category": "Cloud", "level": "Intermediate"},
-    {"name": "UI/UX Design", "category": "Design", "level": "Intermediate"}
+    {"name": "UI/UX Design", "category": "Design", "level": "Intermediate"},
+    {"name": "Streamlit", "category": "Framework", "level": "Intermediate"},
+    {"name": "CodeIgniter", "category": "Framework", "level": "Intermediate"},
+    {"name": "OpenCV", "category": "AI/ML", "level": "Intermediate"},
+    {"name": "Numpy", "category": "AI/ML", "level": "Intermediate"},
+    {"name": "Pandas", "category": "AI/ML", "level": "Intermediate"},
+    {"name": "MySQL Workbench", "category": "Database Tools", "level": "Intermediate"},
+    {"name": "phpMyAdmin", "category": "Database Tools", "level": "Advanced"},
+    {"name": "Email on Acid", "category": "Email Tools", "level": "Intermediate"},
+    {"name": "Putsmail", "category": "Email Tools", "level": "Intermediate"},
+    {"name": "Python Colab", "category": "Development Tools", "level": "Advanced"},
+    {"name": "Jupyter Notebook", "category": "Development Tools", "level": "Advanced"},
+    {"name": "VS Code", "category": "Development Tools", "level": "Expert"},
+    {"name": "AI Tools", "category": "AI/ML", "level": "Intermediate"}
 ]
 
 @app.get("/")
