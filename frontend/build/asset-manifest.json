@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/rachit-portfolio/static/css/main.56dccc2e.css",
-    "main.js": "/rachit-portfolio/static/js/main.bd7d7f1d.js",
+    "main.js": "/rachit-portfolio/static/js/main.606c4c05.js",
     "index.html": "/rachit-portfolio/index.html",
     "main.56dccc2e.css.map": "/rachit-portfolio/static/css/main.56dccc2e.css.map",
-    "main.bd7d7f1d.js.map": "/rachit-portfolio/static/js/main.bd7d7f1d.js.map"
+    "main.606c4c05.js.map": "/rachit-portfolio/static/js/main.606c4c05.js.map"
   },
   "entrypoints": [
     "static/css/main.56dccc2e.css",
-    "static/js/main.bd7d7f1d.js"
+    "static/js/main.606c4c05.js"
   ]
 }
