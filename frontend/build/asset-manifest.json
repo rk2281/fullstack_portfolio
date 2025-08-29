@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/rachit-portfolio/static/css/main.56dccc2e.css",
+    "main.js": "/rachit-portfolio/static/js/main.bd7d7f1d.js",
+    "index.html": "/rachit-portfolio/index.html",
+    "main.56dccc2e.css.map": "/rachit-portfolio/static/css/main.56dccc2e.css.map",
+    "main.bd7d7f1d.js.map": "/rachit-portfolio/static/js/main.bd7d7f1d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56dccc2e.css",
+    "static/js/main.bd7d7f1d.js"
+  ]
+}
